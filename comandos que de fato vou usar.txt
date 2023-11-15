@@ -1,0 +1,63 @@
+    sticky-top ou bottom = deixar uma parte do site fixa se ele tocar no topo ou na parte de baixo
+
+    clearfix = manter o float na caixa
+    
+    text-sm-right = manter em uma tela o texto alinhado em um local
+
+    margin e padding
+            <!-- Aplicação de Margin
+                mt -> Margin Top
+                mb -> Margin Bottom
+                ml -> Margin Left
+                mr -> Margin Right
+                mx -> Margin no eixo x (horizontal) esquerda/direita
+                my -> Margin no eixo y (vertical) top/bottom
+                m  -> Margin em todos os lados
+                Valor a definir (0 até 5)
+                -->
+
+                <!-- Aplicação de Padding
+                pt -> Padding Top
+                pb -> Padding Bottom
+                pl -> Padding Left
+                pr -> Padding Right
+                px -> Padding no eixo x (horizontal) esquerda/direita
+                py -> Padding no eixo y (vertical) top/bottom
+                p  -> Padding em todos os lados
+                Valor a definir (0 até 5)
+                -->
+
+    button {
+                comando que cria comandos, possivel trocar de cor com btn-{cor}
+                (pode se aplicar a cor em outras tag's)
+                btn-outline-<formato> faz com que apos pressionar ele tenha uma borda, nao arredondada, mas sim "quadriculada"
+                use btn para ficar redondo, ou se acustume com o quadradão
+                }
+                cores {
+                primary, secondary, success, info, warning, danger, light, dark, link
+                }
+                para criar links estilo menu use: {
+                <div>
+                    <button class="btn btn-warning dropdown-toggle" data-toggle="dropdown" type="button">
+                        Clique
+                    </button>
+                    <div class="dropdown-menu">
+                        <a href="#" class="dropdown-item">Link 1</a>
+                        <a href="#" class="dropdown-item">Link 2</a>
+                        <a href="#" class="dropdown-item">Link 3</a>
+                    </div>
+                </div>
+    }
+    póis ai vai criar o link que tem que clicar na setinha e ira mostrar os links
+
+    navegação [
+        (primeira parte: use na lista a classe     nav      para quebrar um baita galho
+        para itens da navegação use a tag   nav-item
+        no link [tag a] use a classe    nav-link)
+        (identificar qual esta ativo: use active para identificar qual seria o link selecionado :-))
+        na tag navegação = nav, coloque a classe "navbar navbar-expand-lg navbar-dark bg-primary"
+        crie um link para ser antes do botão e coloque a classe "navbar-brand"
+        crie um botão com a classe "navbar-toggler" + data-toggle="collapse" + data-target="id de sua escolha"
+        crie uma div que vai ter os links com a classe collapse e navbar-collapse e o mesmo id do botão, depois coloque os itens da barra de navegação e os links da barra de navegação
+        
+    ]
